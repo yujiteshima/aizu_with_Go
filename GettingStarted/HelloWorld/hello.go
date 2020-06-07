@@ -1,5 +1,8 @@
 package hello
+
 import "fmt"
-func main () {
-	fmt.Println("Hello,Golang!")
+
+func hello() string {
+	fmt.Println("Hello, World")
+	return "Hello World"
 }
